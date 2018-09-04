@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+
 <article>
 
 	<h1 class="title">{{ page.title }}</h1>
@@ -9,9 +11,11 @@ layout: default
 	<div class="divider"></div>
 
 	{{ content }}
-
 </article>
+<!--
+	<div class="page-navigation code">
+		<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Back to Index">&larr; Index</a>
+	</div>-->
 
-<div class="page-navigation code">
-	<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Back to Index">&larr; Index</a>
 </div>
+<script src="javascripts/scale.fix.js"></script>

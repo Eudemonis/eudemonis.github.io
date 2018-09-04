@@ -13,7 +13,9 @@ layout: default
 
 	{{ content }}
 
+
 </article>
+
 
 <div class="page-navigation code">
 	{% if page.next.url %}
@@ -26,3 +28,13 @@ layout: default
     <a class="prev" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" title="PREV: {{page.previous.title}}">&gt;&gt;</a>
   {% endif %}
 </div>
+<article>
+{% include disqus.html %}
+</article>
+
+<!--
+<div class="footer">
+  <span class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</span>
+  <span class="block"><small>&lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/the-plain">The Plain theme</a>.</small></span>
+</div>
+-->

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section>
+<article>
 {% for post in site.posts limit:1 %}
 
 		<!--{% unless post.next %}
@@ -26,7 +26,7 @@ layout: default
 			</li>
 		</ul>-->
 
-		<article>
+
 
 			<div class="center">
 				<h1 class="title">{{ post.title }}</h1>
@@ -54,7 +54,13 @@ layout: default
 		  {% endif %}
 		</div>
 
+		<article>
+		{% include disqus.html %}
+		</article>
+
 	{% endfor %}
 
 
 </section>
+</div>
+<script src="javascripts/scale.fix.js"></script>
