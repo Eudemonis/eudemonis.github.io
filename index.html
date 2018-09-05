@@ -54,8 +54,10 @@ layout: default
 		  {% endif %}
 		</div>
 
-		<article>
+		<article align="center">
 		{% include disqus.html %}
+
+		<span class="block"> <small>&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</small></span>
 		</article>
 
 	{% endfor %}
@@ -63,4 +65,3 @@ layout: default
 
 </section>
 </div>
-<script src="javascripts/scale.fix.js"></script>
