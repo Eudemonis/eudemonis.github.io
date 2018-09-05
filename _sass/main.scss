@@ -86,7 +86,8 @@ blockquote {
   right: 62%;
   position: fixed;
   text-align: left;
-  top: 85px; /*added end*/
+  line-height: 20px;
+  top: 80px; /*added end*/
   color: #777;
   font-size: 0.8rem;
   a {
@@ -97,7 +98,7 @@ blockquote {
 
 @media (min-width:200px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
    .header {
-     width: 270px;
+     width: 250;
    }
  }
 
@@ -111,8 +112,8 @@ blockquote {
   -webkit-animation-fill-mode: both;
   -webkit-animation-name: bounce;
   a {
-    background: #ddd url("logo_wrapper.png");
-    color: #000;
+    background: #fff /*url("logo_wrapper.png")*/;
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
     height: 100px;
@@ -122,18 +123,18 @@ blockquote {
     display: inline-block;
     text-align: center;
     line-height: 100px;
-    border: 0px solid #fff;
+    border: 0px solid #fff; /* larger border = smaller image circle*/
     box-sizing: border-box;
     &:hover,
     &:focus {
-      background: #f14e32;
+      background: #fff;
     }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
       display: inline-block !important;
     }
     .logo-avatar {
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 rgba(0, 0, 0, 0.15);
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
@@ -328,8 +329,7 @@ article {
 .block {
   display: block;
 }
-.page-navigation,
-.footer {
+.page-navigation,{
   text-align: center;
   max-width: 500px;
   margin: 0 auto;
@@ -347,10 +347,11 @@ article {
   }
 }
 .footer {
-  width: 300px;
+  max-width: 200px;
+  text-align: center;
   right: 62%;
   position: fixed;
-  bottom: 55px; /* footer margin*/
+  bottom: 79px; /* footer margin*/
   color: #777;
   font-size: 0.8rem;
   a {
@@ -359,7 +360,7 @@ article {
   }
 }
 
-@media (min-width:600px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
+@media (min-width:200px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
    .footer {
      width: 250px;
    }

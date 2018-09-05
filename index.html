@@ -44,24 +44,21 @@ layout: default
 
 		<div class="page-navigation code">
 			{% if post.next.url %}
-		    <a class="next" href="{{ post.next.url | prepend: site.baseurl | prepend: site.url }}" title="NEXT: {{post.next.title}}">&lt;&lt;</a>
+		    <a class="next" href="{{ post.next.url | prepend: site.baseurl | prepend: site.url }}" title="Next post {{post.next.title}}">&lt;&lt;</a>
 				<span> &middot; </span>
 		  {% endif %}
-				<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Back to Index">Index</a>
+				<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Return Home">Index</a>
 		  {% if post.previous.url %}
 				<span> &middot; </span>
-		    <a class="prev" href="{{ post.previous.url | prepend: site.baseurl | prepend: site.url }}" title="PREV: {{post.previous.title}}">&gt;&gt;</a>
+		    <a class="prev" href="{{ post.previous.url | prepend: site.baseurl | prepend: site.url }}" title="Previous post {{post.previous.title}}">&gt;&gt;</a>
 		  {% endif %}
 		</div>
 
 		<article align="center">
 		{% include disqus.html %}
 
-		<span class="block"> <small>&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</small></span>
-		</article>
 
 	{% endfor %}
-
 
 </section>
 </div>
