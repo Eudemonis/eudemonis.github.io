@@ -1,0 +1,19 @@
+<div class="comment">
+<button class="show-comments"><i class="fa fa-comments" aria-hidden="true"> Load/Add comments</i></button>
+<div id="disqus_thread"></div>
+</div>
+<script src={{ "/javascripts/jquery.min.js" | prepend: site.baseurl }}></script>
+<script>
+$(document).ready(function() {
+    $('.show-comments').on('click', function(){
+          var disqus_shortname = 'eudemonis';
+          $.ajax({
+                  type: "GET",
+                  url: "https://" + eudemonis + ".disqus.com/embed.js",
+                  dataType: "script",
+                  cache: true
+          });
+          $(this).fadeOut();
+    });
+});
+</script>

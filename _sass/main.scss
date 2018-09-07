@@ -367,6 +367,37 @@ article {
    }
  }
 
+ // Disqus comments button
+
+.show-comments-button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.show-comments {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 4px;
+    margin-top: 1em;
+    &:hover{
+       border: none;
+    }
+}
+
+.comment {
+    text-align: center;
+}
+
+
 section { /*not used anymore, see article instead*/
   max-width: 500px;
   float:center; /*added begin*/
