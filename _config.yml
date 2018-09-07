@@ -6,7 +6,7 @@ logo_url:           "" # Get it from GitHub API: https://api.github.com/users/<u
 
 # Site Settings
 url:                https://eudemonis.github.io # main url
-baseurl:            /the-plain #Name of the repository
+baseurl:            / #Name of the repository
 permalink:          /:title # Post permalink
 timezone:           Europe/Paris # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
