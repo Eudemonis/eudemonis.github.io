@@ -351,7 +351,8 @@ article {
   text-align: center;
   right: 62%;
   position: fixed;
-  bottom: 79px; /* footer margin*/
+  top: 510px; /* footer margin*/
+  max-height: 460px;
   color: #777;
   font-size: 0.8rem;
   a {
