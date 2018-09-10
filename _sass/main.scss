@@ -13,7 +13,9 @@ body {
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
   color: #333333;
   padding: 20px;
   margin: 0;
@@ -35,23 +37,24 @@ h6 {
 }
 h1 {
   font-size: 2rem;
+  font-family: merriweather;
 }
 
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.20rem;
 }
 
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.10rem;
 }
 
 h4,
 h5,
 h6 {
   margin-top: 1.1rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 
@@ -82,7 +85,7 @@ blockquote {
 }
 
 .header {
-  width: 200px;
+  width: 210px;
   right: 62%;
   position: fixed;
   text-align: left;
@@ -96,9 +99,9 @@ blockquote {
   }
 }
 
-@media (min-width:200px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
+@media (min-width:210px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
    .header {
-     width: 250;
+     width: 260;
    }
  }
 
@@ -201,7 +204,7 @@ code,
 pre,
 .code,
 .footnotes {
-  font-family: Consolas, monaco, monospace;
+  font-family: calibri, Consolas, monaco, monospace;
 }
 code {
   color: #f14e32;
@@ -347,12 +350,11 @@ article {
   }
 }
 .footer {
-  max-width: 200px;
-  text-align: center;
+  max-width: 210px;
   right: 62%;
   position: fixed;
+  text-align: center;
   top: 510px; /* footer margin*/
-  max-height: 460px;
   color: #777;
   font-size: 0.8rem;
   a {
@@ -361,9 +363,9 @@ article {
   }
 }
 
-@media (min-width:200px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
+@media (min-width:210px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
    .footer {
-     width: 250px;
+     width: 260px;
    }
  }
 
