@@ -10,7 +10,8 @@ baseurl:             #Name of the repository
 permalink:          /:title # Post permalink
 timezone:           Europe/Paris # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
-disqus-shortname:   eudemonis
+disqus_baseurl: "https://eudemonis.github.io/"
+disqus_shortname: https-eudemonis-github-io
 
 # Site Build
 highlighter:        rouge
