@@ -7,7 +7,7 @@ Today is finally the day that this blog is coming online. I have absolutely no i
 
 Things I like to do that are considered weird:
 1. Eating frozen bread
-2.
+2. ...
 
 Things I dislike about myself:
 1. That my first reaction is: "What is there not to dislike?"
