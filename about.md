@@ -3,8 +3,10 @@ layout: page
 title: About
 ---
 
-Hello.
+## Origins
 
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
+_Eudaimonia_ is a Greek word commonly translated as happiness or welfare. Eudaimonia implies a positive and divine state of being that humanity is able to strive toward and possibly reach.
 
-**Less is more..**
+Etymologically, it consists of the words _"eu"_ ("good") and _"daimōn"_ ("spirit").
+
+In Aristotle's works, _eudaimonia_ (based on older Greek tradition) was used as the term for the highest human good, and so it is the aim of practical philosophy, including ethics and political philosophy, to consider (and also experience) what it really is, and how it can be achieved.

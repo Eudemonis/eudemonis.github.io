@@ -9,11 +9,12 @@ html {
   height: 100%;
 }
 body {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif; /*see default layut for font stylesheet link*/
+  letter-spacing: 0.02em;
   font-weight: 400;
   color: #333333;
   padding: 20px;
@@ -255,9 +256,9 @@ article {
   float: center;
   position: static;
   h1.title {
-    line-height: 1.4em;
+    line-height: 1.2em; /* used to be 1.4em, same for font-size*/
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
   .divider {
     background: #ddd;
@@ -277,7 +278,7 @@ article {
     margin: 30px 0;
   }
   p {
-    font-size: 15px;
+    font-size: 16px; /*body font size*/
     line-height: 1.9em;
     word-wrap: break-word;
   }
@@ -336,7 +337,7 @@ article {
   text-align: center;
   max-width: 500px;
   margin: 0 auto;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .page-navigation {
   margin: 50px auto 0 45%; /*margin is now in the center like  '.article'*/
@@ -369,35 +370,6 @@ article {
    }
  }
 
- // Disqus comments button
-
-.show-comments-button {
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 20px;
-    margin: 0px 0px;
-    width: 100%;
-}
-
-.show-comments {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    font-size: 0.9em;
-    padding: 4px;
-    margin-top: 1em;
-    &:hover{
-       border: none;
-    }
-}
-
-.comment {
-    text-align: center;
-}
 
 
 section { /*not used anymore, see article instead*/

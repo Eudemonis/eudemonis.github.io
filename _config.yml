@@ -1,6 +1,6 @@
 # Site Info
 title:              "Eudemonis"
-description:        "A personal blog"
+description:        "A personal blog about finding the truth through philosophy, science, spiritualism and shamanism"
 author_name:        "Eudemonis" # change this to your name
 logo_url:           "" # Get it from GitHub API: https://api.github.com/users/<username>
 
@@ -9,7 +9,7 @@ url:                https://eudemonis.github.io # main url
 baseurl:             #Name of the repository
 permalink:          /:title # Post permalink
 timezone:           Europe/Paris # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+mathjax:            false  # enables support for mathjax - set to 'false' to disable
 disqus_baseurl: "https://eudemonis.github.io/"
 disqus_shortname: https-eudemonis-github-io
 
