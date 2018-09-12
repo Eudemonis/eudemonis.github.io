@@ -13,9 +13,8 @@ body {
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  letter-spacing: 0.03em;
   color: #333333;
   padding: 20px;
   margin: 0;
@@ -25,6 +24,7 @@ body {
     padding: 35px 50px;
   }
 }
+
 h1,
 h2,
 h3,
@@ -204,7 +204,7 @@ code,
 pre,
 .code,
 .footnotes {
-  font-family: calibri, Consolas, monaco, monospace;
+  font-family: 'Calibri', helvetica, monaco, monospace;
 }
 code {
   color: #f14e32;
