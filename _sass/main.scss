@@ -79,10 +79,11 @@ mark {
   padding: 0 5px;
 }
 blockquote {
-  border-left: 5px solid #ccc;
+  border-left: 5px solid #f1e4d3;
+  font-style: italic;
   margin: 40px 0;
-  padding: 5px 30px;
-  background: #eee;
+  padding: 2px 30px;
+  background: #fff; /* was eee */
 }
 
 .header {
@@ -184,6 +185,8 @@ ul,
 ol {
   margin: 40px 0;
   padding-left: 50px;
+  font-size: 0.9rem;
+
   li {
     word-wrap: break-word;
   }
@@ -217,7 +220,7 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem; /*code blocks*/
   line-height: 1.4;
   white-space: pre;
   overflow-x: auto;
@@ -234,6 +237,7 @@ pre {
 table {
   width: 100%;
   table-layout: fixed;
+  font-size: 0.9rem;
   margin: 45px 0;
   thead {
     background: #f2f2f2;
@@ -284,8 +288,9 @@ article {
   }
   .footnote {
     border: 0;
-    background-color: #0087BE;
-    color: #fff;
+    font-size: 9px;
+    background-color: transparent;
+    color: #666;
     padding-left: 2px;
     padding-right: 2px;
   }
