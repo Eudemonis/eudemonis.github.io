@@ -7,6 +7,15 @@ url("fonts/Lato-Regular.otf") format("opentype"),
 url("fonts/Lato-Regular.svg#filename") format("svg");
 }
 
+@font-face {
+font-family: "Merriweather-Regular";
+src: url("fonts/Merriweather-Regular.eot");
+src:
+url("fonts/Merriweather-Regular.woff") format("woff"),
+url("fonts/Merriweather-Regular.otf") format("opentype"),
+url("fonts/Merriweather-Regular.svg#filename") format("svg");
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,7 +33,6 @@ body {
   font-style: normal;
   font-family: 'Lato-Regular', Helvetica, Arial, sans-serif; /*see default layut for font stylesheet link*/
   letter-spacing: 0.02em;
-  font-weight: 400;
   color: #333333;
   padding: 20px;
   margin: 0;
@@ -295,6 +303,7 @@ article {
     font-size: 16px; /*body font size*/
     line-height: 1.9em;
     word-wrap: break-word;
+    text-align: justify; /*body*/
   }
   .footnote {
     border: 0;
@@ -379,13 +388,14 @@ article {
   }
 }
 
+
+/*
 @media (min-width:210px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
-   .footer {
+/*   .footer {
      width: 260px;
    }
  }
-
-
+This did not work in firefox*/
 
 section { /*not used anymore, see article instead*/
   max-width: 500px;
