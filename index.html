@@ -5,34 +5,32 @@ layout: default
 <article>
 {% for post in site.posts limit:1 %}
 
-			<div class="center">
-				<h1 class="title">{{ post.title }}</h1>
-				<time class="code"><small>{{ post.date | date: '%B %-d, %Y' }}</small></time>
-			</div>
-
-			<div class="divider"></div>
+<div class="center">
+	<h1 class="title">{{ post.title }}</h1>
+	<div class="divider"></div>
+</div>
 			<!--<span style="display:block; height: 8px;"></span>-->
 
 			{{ post.content }}
-
-<div class="divider"></div>
+<br>
+			<div class="divider"></div>
 		</article>
+
 
 		<div class="page-navigation code">
 			{% if post.next.url %}
-		    <a class="next" href="{{ post.next.url | prepend: site.baseurl | prepend: site.url }}" title="Next post {{post.next.title}}">&lt;&lt;</a>
-				<span> &middot; </span>
+		    <a class="next" style="float: left" href="{{ post.next.url | prepend: site.baseurl | prepend: site.url }}" title="Next entry {{post.next.title}}">Next entry </a>
 		  {% endif %}
-				<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Return Home">Home</a>
 		  {% if post.previous.url %}
-				<span> &middot; </span>
-		    <a class="prev" href="{{ post.previous.url | prepend: site.baseurl | prepend: site.url }}" title="Previous post {{post.previous.title}}">&gt;&gt;</a>
+		     <a class="prev" style="float: right" href="{{ post.previous.url | prepend: site.baseurl | prepend: site.url }}" title="Previous entry {{post.previous.title}}">Previous entry </a>
 		  {% endif %}
 		</div>
 
 
 
 <article>
+
+
 {% if post.comments %}
 	<div id="disqus_thread"></div>
 

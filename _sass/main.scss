@@ -16,6 +16,15 @@ url("fonts/Merriweather-Regular.otf") format("opentype"),
 url("fonts/Merriweather-Regular.svg#filename") format("svg");
 }
 
+@font-face {
+font-family: "Karla-Regular";
+src: url("fonts/karla-regular-webfont.eot");
+src:
+url("fonts/karla-regular-webfont.woff") format("woff"),
+url("fonts/Karla-Regular.otf") format("opentype"),
+url("fonts/Karla-Regular.svg#filename") format("svg");
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,15 +34,18 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+background-color: #fff;
+/*background-image: url(data:image/png;base64,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);*/
 }
+
 body {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
   font-family: 'Lato-Regular', Helvetica, Arial, sans-serif; /*see default layut for font stylesheet link*/
   letter-spacing: 0.02em;
-  color: #333333;
+  color: #181818;
   padding: 20px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -49,31 +61,41 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     line-height: 1.25;
-    color: #313131;
+    font-family: Karla-regular, times new roman, Georgia;
+    color: #181818;
+    font-weight: 700;
 }
 h1 {
-  font-size: 2rem;
-  font-family: merriweather, times new roman, Georgia;
-  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-family: Karla-regular, times new roman, Georgia;
+  font-weight: 700;
+  color: #181818;
 }
 
 h2 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 1.20rem;
 }
 
 h3 {
-  margin-top: 1.5rem;
-  font-size: 1.10rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1;
 }
 
 h4,
 h5,
 h6 {
-  margin-top: 1.1rem;
-  font-size: 1rem;
+  font-size: 2rem;
+  font-family: Karla-regular, times new roman, Georgia;
+  font-weight: 700;
+  color: #181818; /*color of title post*/
+  /*background-color: rgba(255, 0, 0, .1);
+  padding: 2px;
+  border-radius: 5px;*/
 }
 
 
@@ -97,22 +119,22 @@ mark {
   padding: 0 5px;
 }
 blockquote {
-  border-left: 5px solid #f1e4d3;
+  border-left: 5px solid rgba(255, 0, 0, .1);
   font-style: italic;
   margin: 40px 0;
   padding: 2px 30px;
-  background: #fff; /* was eee */
+  background: transparent; /* was eee */
 }
 
 .header {
   width: 210px;
-  right: 65%;
+  right: 68%;
   position: fixed;
-  text-align: left;
+  text-align: justify;
   line-height: 20px;
   top: 80px; /*added end*/
-  color: #777;
-  font-size: 0.8rem;
+  color: #181818; /*777*/
+  font-size: 0.9rem;
   a {
     border: none;
     font-weight: bold;
@@ -174,10 +196,10 @@ blockquote {
     vertical-align: middle;
     padding: 5px;
     border-radius: 3px;
-    background: #666;
-    background: rgba(0,0,0,.5);
+    background: transparent;
+    background: rgba(0,0,0,.0); /*rgba(0,0,0,.5)*/
     margin-left: 15px;
-    color: #fff;
+    color: transparent; /*fff*/
     font-size: 0.9235em;
     text-align: center;
     line-height: 1.2;
@@ -187,8 +209,8 @@ blockquote {
       content: "";
       border-width: 5px 5px 5px 0;
       border-style: solid;
-      border-color: transparent #666;
-      border-color: transparent rgba(0,0,0,.5);
+      border-color: transparent; /*666*/
+      border-color: transparent rgba(0,0,0,.0); /*rgba(0,0,0,.5)*/
       position: absolute;
       top: 50%;
       left: -5px;
@@ -272,11 +294,16 @@ table {
 iframe {
   width: 100%;
 }
+
+
+
+
 article {
-  max-width: 500px;
-  margin: 43px 0px 0 45%; /*margin body posts and pages*/
+  max-width: 520px;
+  margin: 103px 0px 0 40%; /*margin body posts and pages*/
   float: center;
   position: static;
+
   h1.title {
     line-height: 1.2em; /* used to be 1.4em, same for font-size*/
     text-align: center;
@@ -300,7 +327,7 @@ article {
     margin: 30px 0;
   }
   p {
-    font-size: 16px; /*body font size*/
+    font-size: 17px; /*body font size*/
     line-height: 1.9em;
     word-wrap: break-word;
     text-align: justify; /*body*/
@@ -358,13 +385,16 @@ article {
   display: block;
 }
 .page-navigation,{
-  text-align: center;
-  max-width: 500px;
+  font-family: lato;
+  max-width: 520px;
   margin: 0 auto;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  color: #777;
+
+
 }
 .page-navigation {
-  margin: 50px auto 0 45%; /*margin is now in the center like  '.article'*/
+  margin: 50px auto 0 40%; /*margin is now in the center like  '.article'*/
   a {
     display: inline-block;
     text-decoration: none;
@@ -376,12 +406,12 @@ article {
 }
 .footer {
   max-width: 210px;
-  right: 65%;
+  right: 68%;
   position: fixed;
   text-align: center;
   top: 510px; /* footer margin*/
   color: #777;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   a {
     border: none;
     font-weight: bold;
@@ -389,16 +419,16 @@ article {
 }
 
 
-/*
+
 @media (min-width:210px) { /*dit maakt de sidebar text responsive, dus dat de breedte smaller wordt als het scherm smaller wordt*/
-/*   .footer {
+   .footer {
      width: 260px;
    }
  }
-This did not work in firefox*/
+
 
 section { /*not used anymore, see article instead*/
-  max-width: 500px;
+  max-width: 520px;
   float:center; /*added begin*/
   padding: 50px 0px 0px 0px;
   padding-bottom:50px; /*added end*/
@@ -429,8 +459,9 @@ section { /*not used anymore, see article instead*/
       span {
         display: inline-block;
         color: #757575;
+        font-family: lato;
         letter-spacing: 1px;
-        text-transform: uppercase;
+        text-transform: small;
       }
       @media (min-width: 992px) {a {
           border-bottom: 2px solid transparent;

@@ -5,32 +5,40 @@ layout: default
 <article>
 
 	<div class="center">
-		<h1 class="title">{{ page.title }}</h1>
-		<time class="code"><small>{{ page.date | date: '%B %-d, %Y' }}</small></time>
-	</div>
+		<h6 class="title">{{ page.title }}</h6>
 
-	<div class="divider"></div>
+			<div class="divider"></div>
+
+	<!--	<small><time class="code">{{ page.date | date: '%B %-d, %Y' }}</time></small>-->
+	</div>
+	<!--<small><time class="code" align="right">{{ page.date | date: '%B %-d, %Y' }}</time></small>-->
+
+
 <!--<span style="display:block; height: 8px;"></span>-->
 	{{ content }}
-
-
+<br>
+	<div class="divider"></div>
 </article>
 
 
 <div class="page-navigation code">
-	{% if page.next.url %}
-    <a class="next" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}" title="NEXT: {{page.next.title}}">&lt;&lt;</a>
-		<span> &middot; </span>
-  {% endif %}
-		<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Return Home">Home</a>
-  {% if page.previous.url %}
-		<span> &middot; </span>
-    <a class="prev" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" title="PREV: {{page.previous.title}}">&gt;&gt;</a>
-  {% endif %}
+		<!--<center>-->
+			{% if page.next.url %}
+ <a class="next" style="float: left" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}" title="{{page.next.title}}">Next entry </a>
+	{% endif %}
+
+<!--<a class="home" href="{{top.page}}">{{ page.date | date: '%B %-d' }}</a>-->
+
+	{% if page.previous.url %}
+	 <a class="prev" style="float: right" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" title="{{page.previous.title}}">Previous entry </a>
+	{% endif %}
+
+<!--</center>-->
 </div>
 
+
 <article>
-<div class="divider"></div>
+
 
 	  {% include comments.html %}
 
